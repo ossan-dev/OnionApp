@@ -1,0 +1,5 @@
+.vscode/settings.json
+Core/Application/bin/
+Core/Application/obj/
+Core/Domain/bin/
+Core/Domain/obj/
