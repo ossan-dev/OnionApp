@@ -1,7 +1,11 @@
-.vscode/settings.json
+.vscode/
 Core/Application/bin/
 Core/Application/obj/
 Core/Domain/bin/
 Core/Domain/obj/
 Infrastructure/Persistence/bin/
 Infrastructure/Persistence/obj/
+Presentation/WebApi/bin/
+Presentation/WebApi/obj/
+.editorconfig
+Presentation/WebApi/Properties/launchSettings.json
