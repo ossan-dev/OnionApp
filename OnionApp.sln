@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Core\Domain\Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Core\Application\Application.csproj", "{78FF3633-7CD4-4FEB-A14B-4C10043ED742}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5A2BD083-F9B2-488F-A552-A0F96B66DD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Infrastructure\Persistence\Persistence.csproj", "{D19E2436-170B-400C-B3FF-7953A1DCEA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +50,22 @@ Global
 		{78FF3633-7CD4-4FEB-A14B-4C10043ED742}.Release|x64.Build.0 = Release|Any CPU
 		{78FF3633-7CD4-4FEB-A14B-4C10043ED742}.Release|x86.ActiveCfg = Release|Any CPU
 		{78FF3633-7CD4-4FEB-A14B-4C10043ED742}.Release|x86.Build.0 = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|x64.Build.0 = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Debug|x86.Build.0 = Debug|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|x64.ActiveCfg = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|x64.Build.0 = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|x86.ActiveCfg = Release|Any CPU
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A830EBCF-1F79-4F33-A40C-F11A3DF718E3} = {9A163363-0105-488C-A52F-F91AA08CFFCC}
 		{78FF3633-7CD4-4FEB-A14B-4C10043ED742} = {9A163363-0105-488C-A52F-F91AA08CFFCC}
+		{D19E2436-170B-400C-B3FF-7953A1DCEA48} = {5A2BD083-F9B2-488F-A552-A0F96B66DD6F}
 	EndGlobalSection
 EndGlobal
